@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<title>Abhinav Ram Kola</title>
+<link rel="icon" href="l.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="a.css">
+<link rel="stylesheet" href="b.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript">
+function setnewimg()
+{
+    document.getElementById("img1").src="b.jpg";
+}
+function setoldimg()
+{
+    document.getElementById("img1").src="yo.png";
+}
+function newimg(){
+    document.getElementById("img2").src="specs.jpg"
+}
+function oldimg(){
+    document.getElementById("img2").src="next.jpg"
+}
+</script>
+
+<style>
+.main-header{
+	background-image: url('b.jpg');
+}
+
+html{
+  scroll-behavior: smooth;
+} 
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 180px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 180px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 180px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="next.jpg" style="width:100%" id="img2"  onmouseover="newimg()" onmouseout="oldimg()" >
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p style="font-size:0.5cm ;">Home</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class=""></i>
+    <p style="font-size:0.5cm ;">About Me</p>
+  </a>
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class=""></i>
+    <p style="font-size:0.5cm ;">Resume</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class=""></i>
+    <p style="font-size:0.5cm ;">Contact Info</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#resume" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+
+    <a href="#contact" class="page-scroll" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home" >
+    <h1 class="w3-jumbo"><span class="w3-hide-small" ></span>Abhinav Ram Kola</h1>
+    <p style="font-size: 0.7cm;" style="font-family: Arial, Helvetica, sans-serif;">Software Engineer</p>
+    <img id="img1"  onmouseover="setnewimg()" onmouseout="setoldimg()" src="yo.png" alt="boy"  class="w3-image" width="600" height="250">
+    
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px"  class="w3-opacity">
+    <p style="font-size:0.7cm;" style="font-family:monospace;"><b> Software Engineer with knowledge in Software development and project management.</b><br>
+ 
+        I am pursuing my master's degree in software engineering at Blekinge institute of technology. I wish to work for an organization that gives me challenges in terms of performance and helps me learn and improve my skills. I believe I would be able to channel my skills to analyze issues and open up new avenues of growth.
+        I am a team player. I believe in teamwork and finds it a better way to face challenges. <br>                 
+        During my stay in Sweden I was exposed to a lot of new experiences by working with new people and got a glimpse of culture richness through BTH. I was exposed to cross-culture work environments through academic projects, and thoroughly enjoyed working with them as a team.<br> 
+         
+        Being a creative thinker with an analytical mind, I try to approach a problem by brainstorming solutions through different perspectives, relinquishing a good challenge. I am also skilled at data collection and documentation. 
+         
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Technical Skills</h3>
+
+    <p class="w3-wide">Javascript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">SQL</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Agile software developement</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div><br>
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">Tools & Technologies</h3>
+    <p style="font-size:0.7cm;" style="font-family:monospace;"> AngularJS, Vue.js, PyCharm IDE, IntellIJ,Burp suite, Sonar Qube, Sonar Cloud.</p><br>
+    <h3 class="w3-padding-16 w3-text-light-grey">Additional Skills</h3>
+    <p style="font-size:0.7cm;" style="font-family:monospace;">Ethical hacking, Penetration testing.</p>
+
+</div>
+  <!-- End About Section --> 
+  <div class="w3-padding-50 w3-content w3-text-grey" id="resume">
+    <h2 class="w3-text-light-grey">Resume</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="font-size: 0.7cm;">A review of my resume will demonstrate my experience, skills and qualities.</p>
+<style>
+    
+.button {
+  background-color: grey; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+.button4 {border-radius: 12px;}
+</style>
+</head>
+<body>
+<form target="_blank">
+
+<button class="button button4" type="submit" formaction="file:///C:/Users/kaush/Desktop/Abhinav%20ram%20(Resume)%20m2.pdf"  ><p style="font-size: 0.7cm;">Download Resume</p> </a>
+</button>
+</form>
+
+</body>
+   
+    
+    </body> 
+    </div><br>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p style="font-size:0.7cm ;"><i class=""></i>Address: Hultvagen 1B-1103 lgh, Karlskrona, Sweden, 37154.</p>
+      <p style="font-size:0.7cm ;"><i class=""></i> Phone: +46 768203688</p>
+      <p style="font-size:0.7cm ;"><i class=""> </i> Email: abhinavram98@gmail.com</p>
+    </div><br>
+    <!-- Footer -->
+
+    <!-- Add font awesome icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .fa {
+      padding: 15px;
+      font-size: 20px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 70%;
+    }
+    
+    .fa:hover {
+        opacity: 1;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-github {
+        background:grey;
+        color: black;
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+    <h2></h2>
+    
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/abhinav.ram.904" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/abhinavramkola/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/AbhinavRamKola" class="fa fa-github"></a>
+    
+          
+    </body>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
